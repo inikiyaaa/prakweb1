@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+img{
+    height: 25vh;
+}
+
+body{
+    background-color: violet;
+    text-align: center;
+}
+
+header,footer{
+    background-color: aqua;
+    height: 10vh;
+    line-height: 10vh;
+    margin: 20px;
+}
+
+main{
+    height: 70px;
+    margin: 0 20px;
+    display: flex;
+}
+
+aside{
+    background-color: navy;
+    flex: 1;
+    margin-right: 20px;
+}
+
+article{
+    background-color: rgb(red, green, blue);
+    flex: 3;
+    text-align: center;
+}
+
+article.text{
+    height: 37vh;
+}
+
+.container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}

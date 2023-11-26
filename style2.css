@@ -1,0 +1,28 @@
+header, footer{
+    background-color: bisque;
+    height: 20vh;
+}
+
+#main{
+    display: flex;
+}
+
+#main article{
+    flex: 1;
+}
+
+#main nav,
+
+#main aside{
+    height: 50vh;
+}
+
+#main nav{
+    background-color: aqua;
+    width: 20vw;
+}
+
+#main aside{
+    background-color: pink;
+    width: 20vw;
+}
